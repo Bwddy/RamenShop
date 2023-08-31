@@ -42,8 +42,6 @@ namespace KitchenMyMod
         {
             LogInfo("Attempting to register game data...");
 
-            AddGameDataObject<HardBoiledEgg>();
-            AddGameDataObject<HardBoiledEggShelled>();
             AddGameDataObject<RamenEgg>();
             AddGameDataObject<RamenEggCut>();
             AddGameDataObject<RamenNoodles>();

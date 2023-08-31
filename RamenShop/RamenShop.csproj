@@ -85,14 +85,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomGDOs\HardBoiledEggShelled.cs" />
-    <Compile Include="CustomGDOs\HardBoiledEgg.cs" />
     <Compile Include="CustomGDOs\RamenEggCut.cs" />
     <Compile Include="CustomGDOs\RamenEgg.cs" />
     <Compile Include="CustomGDOs\ShoyuBroth.cs" />
     <Compile Include="CustomGDOs\ShoyuBrothPot.cs" />
     <Compile Include="CustomGDOs\ShoyuBrothPacket.cs" />
     <Compile Include="CustomGDOs\ShoyuBrothPacketProvider.cs" />
+    <Compile Include="CustomGDOs\RamenEggPot.cs" />
+    <Compile Include="CustomGDOs\UncookedRamenEggPot.cs" />
     <Compile Include="CustomGDOs\UncookedShoyuBrothPot.cs" />
     <Compile Include="CustomGDOs\RamenNoodles.cs" />
     <Compile Include="CustomGDOs\RamenProvider.cs" />
