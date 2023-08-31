@@ -1,6 +1,7 @@
 ﻿using KitchenLib;
 using KitchenLib.Event;
 using KitchenMods;
+using RamenShop.Customs;
 using System.Reflection;
 using UnityEngine;
 
@@ -41,7 +42,18 @@ namespace KitchenMyMod
         {
             LogInfo("Attempting to register game data...");
 
-            // AddGameDataObject<Semolina>();
+            AddGameDataObject<HardBoiledEgg>();
+            AddGameDataObject<HardBoiledEggShelled>();
+            AddGameDataObject<RamenEgg>();
+            AddGameDataObject<RamenEggCut>();
+            AddGameDataObject<RamenNoodles>();
+            AddGameDataObject<RamenProvider>();
+            AddGameDataObject<ShoyuBroth>();
+            AddGameDataObject<ShoyuBrothPacket>();
+            AddGameDataObject<ShoyuBrothPacketProvider>();
+            AddGameDataObject<ShoyuBrothPot>();
+            AddGameDataObject<UncookedShoyuBrothPot>();
+
 
             LogInfo("Done loading game data.");
         }
